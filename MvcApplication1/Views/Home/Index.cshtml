@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Skype Calls</h2>
+
+<a href="javascript:hub.server.skypeCall('skype.username.01')">Skype Username 01</a>
+
+<a href="javascript:hub.server.skypeCall('skype.username.02')">Skype Username 02</a>
+
+<ul id="list"></ul>
+
+<script type="text/javascript">
+    var hub = $.connection.skypeCallHub;
+
+    $(function () {
+        var list = $("#list");
+        hub.client.clientNotification = function (message) {
+            list.append('<li>' + message + '</li>');
+        };
+
+        $.connection.hub.start();
+    });
+</script>
