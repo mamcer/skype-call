@@ -16,7 +16,9 @@ This application never left it is POC status, but it works :)
 
 ## Screenshot
 
-![screenshot](https://raw.githubusercontent.com/mamcer/skype-call/master/doc/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/mamcer/skype-call/master/doc/screenshot-02.png)
+
+![screenshot](https://raw.githubusercontent.com/mamcer/skype-call/master/doc/screenshot-01.png)
 
 ## Technologies
 
