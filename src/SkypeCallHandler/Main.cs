@@ -25,8 +25,8 @@ namespace SkypeCall.Handler
                 {
                     try
                     {
-                        _skypeCallHub.Invoke("clientNotification", new object[] { DateTime.Now.ToString("HH:mm:ss") + " - processing request..." });
-                        WriteLogMessage(string.Format("Request received. User: {0}", userName));
+                        _skypeCallHub.Invoke("clientNotification", DateTime.Now.ToString("HH:mm:ss") + " - processing request...");
+                        WriteLogMessage($"Request received. User: {userName}");
                         Process.Start(@"C:\Program Files\Internet Explorer\iexplore.exe", "skype:" + userName + "?call&video=true");
                         _skypeCallHub.Invoke("clientNotification",  DateTime.Now.ToString("HH:mm:ss") + " - request successfully processed. User:  " + userName );
                     }
@@ -44,7 +44,7 @@ namespace SkypeCall.Handler
 
         private void WriteLogMessage(string message)
         {
-            lstConsole.Items.Add(string.Format("{0} - {1}", DateTime.Now.ToString("HH:mm:ss"), message));
+            lstConsole.Items.Add($"{DateTime.Now:HH:mm:ss} - {message}");
         }
 
         private void btnConnect_Click(object sender, EventArgs e)

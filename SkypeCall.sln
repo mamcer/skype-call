@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeCallRelay", "MvcApplication1\SkypeCallRelay.csproj", "{812549F1-34FA-48D7-B9AA-B012EA0C5A79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeCallRelay", "src\MvcApplication1\SkypeCallRelay.csproj", "{812549F1-34FA-48D7-B9AA-B012EA0C5A79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeCall.Handler", "SkypeCallHandler\SkypeCall.Handler.csproj", "{77841427-3C6C-4276-AFE1-0BC665C1EF5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkypeCall.Handler", "src\SkypeCallHandler\SkypeCall.Handler.csproj", "{77841427-3C6C-4276-AFE1-0BC665C1EF5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
