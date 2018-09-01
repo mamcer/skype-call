@@ -1,6 +1,6 @@
 # SkypeCall
 
-A .NET Library from 2013
+A .NET Web Application from 2013
 
 In `original` branch you will find the original source code for this application. In `master` an upgraded, refactored version.
 
@@ -10,9 +10,9 @@ In 2013 I bought a webcam for my media center. I started to investigate differen
 
 The web application (running in Azure) consists on different links to call known Skype users. When you click on the link it sends a realtime message that is handled from a Winform application (running in the media center) and triggers a Skype call to the user in the link. 
 
-Then from the user perspective you click on a web application link and seconds later you get a video skype call from your home and you can basically see what the camera (in my media center in my case) shows.
+From the user's perspective, he simply clicked on a link in a web application and seconds later he received a Skype video call from his own home.
 
-This application never left it is POC status, but it works :)
+This application never left the POC status, but it worked :)
 
 ## Screenshot
 
