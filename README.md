@@ -4,6 +4,8 @@ A .NET Web Application from 2013
 
 In `original` branch you will find the original source code for this application. In `master` an upgraded, refactored version.
 
+> More details about why I published this project in [this blog post](https://mamcer.github.io/2018-09-02-i-cleaned-up-my-virtual-basement/)
+
 ## Description
 
 In 2013 I bought a webcam for my media center. I started to investigate different basic video surveillance software, free and licensed. In a weekend I implemented this project which basically consists in a basic ASP NET MVC application a Winform desktop application and SignalR for the realtime communication hosted in Azure.
